@@ -1,97 +1,87 @@
-📊 Customer Churn Prediction – Machine Learning Project
+Perfect 👌 Shaikh Abubakar.
+I will give you a professional README for your Sale Price project, written clean like your churn project.
+
+You can copy–paste this into your GitHub README.md.
+
+
+---
+
+🏠 House Price Prediction using Machine Learning
 
 📌 Project Overview
 
-This project builds an end-to-end Machine Learning pipeline to predict customer churn using telecom customer data.
+This project predicts house sale prices using Machine Learning techniques.
+It automatically detects the problem type (Regression), compares multiple models, and selects the best-performing model based on evaluation metrics.
 
-The goal is to identify customers who are likely to leave the company so that businesses can take preventive retention actions.
-
-
----
-
-🎯 Business Problem
-
-Customer churn directly impacts revenue.
-If we can predict which customers are likely to churn:
-
-We can target them with retention offers
-
-Reduce revenue loss
-
-Improve customer lifetime value
-
-
-This project focuses on building a classification model to predict churn (Yes/No).
+The objective is to build a data-driven system that provides accurate property price predictions and extracts business insights from the dataset.
 
 
 ---
 
-🧠 Problem Type
+📊 Dataset
 
-Supervised Machine Learning – Classification
+The dataset contains various housing features such as:
+
+Overall Quality
+
+Living Area Size
+
+Basement Area
+
+Garage Capacity
+
+Year Built
+
+Lot Area
+
+Number of Rooms
+
+And more...
+
 
 Target Variable:
 
-Churn (Yes / No)
-
-
----
-
-📊 Dataset Information
-
-Total Rows: 7043
-
-Total Columns: 21
-
-No missing values
-
-No duplicate records
-
-
-The dataset includes:
-
-Demographic information
-
-Account information
-
-Service subscription details
-
-Billing details
+SalePrice
 
 
 
 ---
 
-⚙️ ML Pipeline
+⚙️ Technologies Used
 
-The project includes:
+Python
 
-Data Cleaning
+Pandas
 
-Encoding Categorical Features
+NumPy
 
-Feature Scaling
+Scikit-learn
 
-Train/Test Split
-
-Model Training
-
-Model Comparison
-
-Feature Importance Analysis
-
-Business Insight Extraction
+Matplotlib
 
 
 
 ---
 
-🤖 Models Used
+🤖 Model Training & Evaluation
 
-1. Logistic Regression
+The system automatically:
+
+Detects Regression problem
+
+Trains multiple models
+
+Compares performance metrics
+
+Selects best model
 
 
-2. Random Forest Classifier
+Models Used
+
+1. Linear Regression
+
+
+2. Random Forest Regressor
 
 
 
@@ -100,58 +90,68 @@ Business Insight Extraction
 
 📈 Model Performance
 
-Model	Accuracy	Precision	Recall	F1 Score	ROC-AUC
+🔹 Linear Regression
 
-Logistic Regression	0.78	0.61	0.50	0.55	0.81
-Random Forest	0.80	0.68	0.46	0.55	0.84
+MAE: 20,236
+
+RMSE: 51,392
+
+R² Score: 0.655
 
 
-🏆 Best Model: Random Forest
+🔹 Random Forest Regressor (Best Model)
+
+MAE: 17,543
+
+RMSE: 28,636
+
+R² Score: 0.893
 
 
----
-
-🔥 Top Important Features
-
-Tenure
-
-MonthlyCharges
-
-PaymentMethod_Electronic check
-
-Contract_Two year
-
-InternetService_Fiber optic
-
+The Random Forest model achieved the highest R² score (89.3%), making it the best-performing model.
 
 
 ---
 
-💼 Key Business Insights
+🏆 Feature Importance (Top Factors)
 
-Customers with month-to-month contracts churn more frequently
+Overall Quality
 
-Customers using fiber optic internet have higher churn rate
+Ground Living Area
 
-Low tenure customers are at high risk
+Total Basement Area
 
-Electronic check users show higher churn probability
+Second Floor Area
+
+Basement Finished Area
+
+
+Overall Quality is the strongest factor affecting house prices.
+
+
+---
+
+💡 Business Insights
+
+Higher overall property quality significantly increases price.
+
+Larger living areas strongly impact sale value.
+
+Basement size contributes to higher pricing.
+
+Garage capacity positively affects property value.
+
+Newer properties generally sell at higher prices.
 
 
 
 ---
 
-🛠 Tech Stack
+📂 Project Structure
 
-Python
+Notebook file (.ipynb)
 
-Pandas
-
-NumPy
-
-Scikit-Learn
-
-Google Colab
+README.md
 
 
 
@@ -160,6 +160,3 @@ Google Colab
 👨‍💻 Author
 
 Shaikh Abubakar
-
-
----
