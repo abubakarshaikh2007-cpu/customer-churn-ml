@@ -1,10 +1,3 @@
-Perfect 👍 I’ll give you the final clean README ending with your name only.
-
-Copy-paste this into GitHub.
-
-
----
-
 📊 Customer Churn Prediction – Machine Learning Project
 
 📌 Project Overview
